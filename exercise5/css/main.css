@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: hsl(351, 74%, 44%);
+  margin: 0;
+  height: 100%
+}
+header {
+  height: 150px;
+}
+figure {
+  display: block;
+  width: 150px;
+}
+figure img {
+  width: 100%;
+  float: left;
+  padding-right: 20px;
+}
+header h1 {
+  color: rgb(253, 200, 170);
+
+  margin: 0;
+  padding-top: 60px;
+}
+
+.mainnav {
+
+  width: 100vw;
+}
+.mainnav ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+}
+.mainnav li {
+  float: right;
+  width: 33%;
+}
+.mainnav li a {
+  display: block;
+  color: rgb(253, 200, 170);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 3px solid rgb(253, 200, 170);
+  font-size: calc(6px + 1vw);
+}
+.mainnav li a:hover {
+  display: block;
+  background-color: rgb(253, 200, 170);
+  color: hsl(351, 74%, 44%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 3px solid hsl(351, 74%, 44%);
+}
+.mainnav li a:active {
+  display: block;
+  box-shadow: 2px 2px 5px rgb(253, 200, 170);
+  background-color: rgb(253, 200, 170);
+  color: hsl(351, 74%, 44%);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border: 3px solid hsl(351, 74%, 44%);
+}
+.subhead {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  color: hsl(351, 74%, 44%);
+  text-align: center;
+}
+h2 {
+  height: 150px;
+  font-size: calc(24px + 1vw);
+  color: rgb(253, 200, 170);
+  padding-left: 50px;
+}
+#breakfast {
+
+  margin-top: 30px;
+  padding: 30px;
+}
+#breakfast h2 {
+  height: 2em;
+  font-size: calc(24px + 1vw);
+  margin-bottom: 0;
+}
+
+#breakfast ul li {
+  color: rgb(253, 200, 170);
+  font-size: 20px;
+}
+#lunch {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+}
+#lunch h2 {
+  height: 2em;
+  font-size: calc(24px + 1vw);
+  margin-bottom: 0;
+}
+#lunch img{
+  margin: 10px 0
+}
+#lunch ul li {
+  color: rgb(253, 200, 170);
+  font-size: 20px;
+}
+#dinner {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+  position: relative;
+}
+#dinner h2 {
+  height: 2em;
+  font-size: calc(24px + 1vw);
+  margin-bottom: 0;
+}
+
+#dinner ul li {
+  color: rgb(253, 200, 170);
+  font-size: 20px;
+}
+footer {
+  color: rgb(253, 200, 170);
+}
+#dinnervideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.dropdown {
+  position: relative;
+}
+.dropnav {
+  position: absolute;
+  display: none;
+}
+.dropnav li {
+  border: 1px solid rgb(253, 200, 170);
+  margin: 5px;
+}
+.dropdown:hover > .dropnav {
+  display: block;
+}
+.dropdown:after {
+  content: "\25BC";
+  position: absolute;
+  font-size: 1em;
+  display: block;
+  top: 38%;
+  right: 12%;
+  color: rgb(253, 200, 170);
+}
